@@ -13,8 +13,8 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 voice_channels = {}
 
-TOKEN = 'MTE1MTM3NzU3MTg0NjU3NDIyMg.G8Nw57.wub0fw-ADejftDkIZMhwCwCR7vTo4J6yCpCOm8'
-OPENAI_KEY = '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'
+TOKEN = ' ' # place token
+OPENAI_KEY = '' # place key
 openai.api_key = OPENAI_KEY
 
 @bot.event
